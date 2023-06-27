@@ -4,67 +4,67 @@
 
 @font-face {
   font-family: "impHeavy";
-  src: url("../src/fonts/Impetus\ Heavy.otf") format("opentype");
+  src: url("/fonts/Impetus\ Heavy.otf") format("opentype");
 }
 @font-face {
   font-family: "impHeavyInline";
-  src: url("../src/fonts/Impetus\ Inline.otf") format("opentype");
+  src: url("/fonts/Impetus\ Inline.otf") format("opentype");
 }
 @font-face {
   font-family: "serenityLight";
-  src: url("../src/fonts/Serenity\ \ Light.otf") format("opentype");
+  src: url("/fonts/Serenity\ \ Light.otf") format("opentype");
 }
 @font-face {
   font-family: "serenityBoldI";
-  src: url("../src/fonts/Serenity\ Bold\ Italic.otf") format("opentype");
+  src: url("/fonts/Serenity\ Bold\ Italic.otf") format("opentype");
 }
 @font-face {
   font-family: "serenityBold";
-  src: url("../src/fonts/Serenity\ Bold.otf") format("opentype");
+  src: url("/fonts/Serenity\ Bold.otf") format("opentype");
 }
 @font-face {
   font-family: "serenityDemiBoldI";
-  src: url("../src/fonts/Serenity\ Demi\ Bold\ Italic.otf") format("opentype");
+  src: url("/fonts/Serenity\ Demi\ Bold\ Italic.otf") format("opentype");
 }
 @font-face {
   font-family: "serenityDemiBold";
-  src: url("../src/fonts/Serenity\ Demi\ Bold.otf") format("opentype");
+  src: url("/fonts/Serenity\ Demi\ Bold.otf") format("opentype");
 }
 @font-face {
   font-family: "serenityELightI";
-  src: url("../src/fonts/Serenity\ Extra\ Light\ Italic.otf") format("opentype");
+  src: url("/fonts/Serenity\ Extra\ Light\ Italic.otf") format("opentype");
 }
 @font-face {
   font-family: "serenityELight";
-  src: url("../src/fonts/Serenity\ Extra\ Light.otf") format("opentype");
+  src: url("/fonts/Serenity\ Extra\ Light.otf") format("opentype");
 }
 @font-face {
   font-family: "serenityHI";
-  src: url("../src/fonts/Serenity\ Heavy\ Italic.otf") format("opentype");
+  src: url("/fonts/Serenity\ Heavy\ Italic.otf") format("opentype");
 }
 @font-face {
   font-family: "serenityH";
-  src: url("../src/fonts/Serenity\ Heavy.otf") format("opentype");
+  src: url("/fonts/Serenity\ Heavy.otf") format("opentype");
 }
 @font-face {
   font-family: "serenityLI";
-  src: url("../src/fonts/Serenity\ Light\ Italic.otf") format("opentype");
+  src: url("/fonts/Serenity\ Light\ Italic.otf") format("opentype");
 }
 @font-face {
   font-family: "serenityMedI";
-  src: url("../src/fonts/Serenity\ Medium\ Italic.otf") format("opentype");
+  src: url("/fonts/Serenity\ Medium\ Italic.otf") format("opentype");
 }
 @font-face {
   font-family: "serenityM";
-  src: url("../src/fonts/Serenity\ Medium.otf") format("opentype");
+  src: url("/fonts/Serenity\ Medium.otf") format("opentype");
 }
 @font-face {
   font-family: "serenityThinI";
-  src: url("../src/fonts/Serenity\ Thin\ Italic.otf") format("opentype");
+  src: url("/fonts/Serenity\ Thin\ Italic.otf") format("opentype");
 }
 @font-face {
   font-family: "serenityThin";
-  src: url("../src/fonts/Serenity\ Thin.otf") format("opentype");
+  src: url("/fonts/Serenity\ Thin.otf") format("opentype");
 }
 
 .nav{
