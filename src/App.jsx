@@ -8,16 +8,16 @@ function App() {
         <div className=" border-4 w-full border-black justify-around">
           <div className="flex border-4 border-green-700 justify-center items-center">
           <img
-            className="border-4 border-yellow-900 m-7 md:w-48 w-24"
+            className="border-4 border-yellow-900 m-3 md:m-7 md:w-48 w-24"
             src="images/TWO SEAS WEB LOGO Transparent Bkgrnd.png"
             alt="Image Description"
           />
           </div>
           <div className="nav  md:pt-7 border-4 border-brandCyan justify-center content-center">
             <nav className="flex flex-row md:flex-col text-lg md:text-3xl justify-evenly">
-              <span className="text-sm m-7 w-20  text-white md:hover:text-black">About</span>
-              <span className="text-sm m-7 w-20  text-white md:hover:text-black">Shop</span>
-              <span className="text-sm m-7 w-20 text-white md:hover:text-black">Contact</span>
+              <span className="text-sm md:text-2xl m-7 w-20  text-white md:hover:text-black">About</span>
+              <span className="text-sm md:text-2xl m-7 w-20  text-white md:hover:text-black">Shop</span>
+              <span className="text-sm md:text-2xl m-7 w-20 text-white md:hover:text-black">Contact</span>
               <div className="hidden md:flex">
                 < FaInstagramSquare className=" ml-6 text-black md:hover:text-brandCyan" size="60" />
               </div>
