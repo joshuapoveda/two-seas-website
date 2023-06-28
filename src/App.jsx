@@ -3,20 +3,20 @@ import { FaInstagram, FaInstagramSquare } from "react-icons/fa";
 
 function App() {
   return (
-    <div className="flex flex-col flex-grow md:flex-row border-4 border-sky-500 h-screen">
-      <div className="flex md:w-3/12 border-4 border-red-600 bg-brandBlue justify-center">
-        <div className=" border-4 w-full border-black justify-around">
-          <div className="flex border-4 border-green-700 justify-center items-center">
+    <div className="outer-box">
+      <div className="nav-box">
+        <div className="inner-nav-box">
+          <div className="logo-box">
           <img
             className="border-4 border-yellow-900 m-3 md:m-7 md:w-48 w-24"
             src="images/TWO SEAS WEB LOGO Transparent Bkgrnd.png"
             alt="Image Description"
           />
           </div>
-          <div className="nav  md:pt-7 border-4 border-brandCyan justify-center content-center">
-            <nav className="flex flex-row md:flex-col text-lg md:text-3xl justify-evenly">
+          <div className="nav">
+            <nav className="links-box">
               <span className="text-sm md:text-2xl m-7 w-20  text-white md:hover:text-black">About</span>
-              <span className="text-sm md:text-2xl m-7 w-20  text-white md:hover:text-black">Shop</span>
+              <span className="text-sm pl-5 md:text-2xl m-7 w-20  text-white md:hover:text-black">Shop</span>
               <span className="text-sm md:text-2xl m-7 w-20 text-white md:hover:text-black">Contact</span>
               <div className="hidden md:flex">
                 < FaInstagramSquare className=" ml-6 text-black md:hover:text-brandCyan" size="60" />

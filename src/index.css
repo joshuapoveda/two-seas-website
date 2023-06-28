@@ -7,3 +7,21 @@
     font-family: SerenityM;
   }
 }
+
+@layer utilities {
+  .outer-box{
+    @apply flex flex-col flex-grow md:flex-row border-4 border-sky-500 h-screen
+  }
+  .nav-box{
+    @apply flex md:w-3/12 border-4 border-red-600 bg-brandBlue justify-center
+  }
+  .inner-nav-box{
+    @apply border-4 w-full border-black
+  }
+  .logo-box{
+    @apply flex border-4 border-green-700 mx-auto justify-evenly items-center
+  }
+  .links-box{
+    @apply flex justify-evenly md:justify-center md:mt-5 md:flex-col text-lg md:text-xl border-4 border-yellow-300
+  }
+}
