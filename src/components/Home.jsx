@@ -5,11 +5,11 @@ const Home = () => {
     <div className="flex flex-grow ">
       <div className="flex flex-col flex-grow ">
         <div className="flex md:h-1/4 border-b-4 border-brandCyan items-center m-4">
-          <h2 className="text-xl md:text-3xl pl-4 py-2 tracking-wider">
+          <h2 className="text-xl md:text-3xl pl-4 py-2 tracking-wider text-blue-950">
             The shop for everything bikes & in between
           </h2>
         </div>
-        <div className="mt-10  p-5 md:hidden">
+        <div className="mt-10  p-5 md:hidden text-blue-950">
           Two seas cycling is a custom, full-service bike shop on Metropolitan
           Ave in Brooklyn.
           <br></br>
@@ -30,7 +30,7 @@ const Home = () => {
 
         <div className="hidden md:flex flex-grow ">
           <div className="flex flex-grow">
-            <div className="p-5 sm:flex hidden sm:w-96 md:w-2/4">
+            <div className="p-5 sm:flex hidden sm:w-96 md:w-2/4 text-blue-950">
               Two seas cycling is a custom, full-service bike shop on
               Metropolitan Ave in Brooklyn.
               <br></br>
