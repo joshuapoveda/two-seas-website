@@ -9,12 +9,12 @@ const Home = () => {
             Your shop for bikes & between
           </h2>
         </div>
-        <div className="border-4 border-purple-400 md:hidden">
+        <div className="border-4 border-purple-400 lg:hidden">
             HELLO
         </div>
         <div className="flex justify-end md:hidden">
           <img
-            className=" border-4 border-red-600 h-auto w-52 md:w-96"
+            className=" border-4 border-red-600 h-auto w-52 lg:w-96"
             src="images/Two Seas Mascot Logo 1.png"
             alt="Image Description"
           />
