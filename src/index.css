@@ -22,6 +22,6 @@
     @apply flex border-4 border-green-700 mx-auto justify-evenly items-center
   }
   .links-box{
-    @apply flex justify-evenly md:justify-center md:mt-5 md:flex-col text-lg md:text-xl border-4 border-yellow-300
+    @apply flex justify-evenly md:justify-center md:mt-5 md:flex-col text-lg md:text-xl border-4 border-white py-3
   }
 }
