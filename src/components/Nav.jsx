@@ -10,7 +10,7 @@ const nav = () => {
       <div className="inner-nav-box">
         <div className="logo-box">
           <img
-            className="border-4 border-yellow-900 m-3 md:m-7 md:w-48 w-24"
+            className=" m-3 md:m-7 md:w-48 w-24"
             src="images/TWO SEAS WEB LOGO Transparent Bkgrnd.png"
             alt="Image Description"
           />
