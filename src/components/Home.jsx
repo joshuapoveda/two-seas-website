@@ -21,7 +21,7 @@ const Home = () => {
         </div>
         <div className="flex justify-end md:hidden">
           <img
-            className=" border-4 mt-10 border-red-600 h-auto w-52 lg:w-96"
+            className=" border-4 mt-24 border-red-600 h-auto w-52 lg:w-96"
             src="images/Two Seas Mascot Logo 1.png"
             alt="Image Description"
           />
