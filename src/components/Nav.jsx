@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const nav = () => {
   return (
     <div >
-    <div className="nav-box pr-5">
+    <div className="nav-box px-5">
       <div className="inner-nav-box">
         <div className="logo-box">
           <img
@@ -20,7 +20,7 @@ const nav = () => {
             <span className="text-sm md:text-2xl md:m-7 w-20  text-white md:hover:text-black">
               <Link to="/">About</Link>
             </span>
-            <span className="text-sm pl-5 md:p-0 md:text-2xl md:m-7 w-20  text-white md:hover:text-black">
+            <span className="text-sm lg:pl-0 sm: pl-5 md:pl-2 md:p-0 md:text-2xl md:m-7 w-20  text-white md:hover:text-black">
               Shop
             </span>
 
