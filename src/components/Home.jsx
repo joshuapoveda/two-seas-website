@@ -28,9 +28,9 @@ const Home = () => {
           />
         </div>
 
-        <div className="hidden p-5 md:flex flex-grow ">
+        <div className="hidden md:flex flex-grow ">
           <div className="flex flex-grow">
-            <div className="sm:flex hidden sm:w-96 md:w-2/4">
+            <div className="p-5 sm:flex hidden sm:w-96 md:w-2/4">
               Two seas cycling is a custom, full-service bike shop on
               Metropolitan Ave in Brooklyn.
               <br></br>
