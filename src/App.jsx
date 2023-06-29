@@ -37,7 +37,7 @@ function App() {
 
       <div className="flex flex-grow border-4 border-yellow-500">
         <div className="flex flex-col flex-grow border-4 border-green-300">
-          <div className="flex h-72 md:h-2/3 border-8 border-black">
+          <div className="flex h-1/5 md:h-2/3 border-8 border-black">
             <h2 className="text-xl p-5 tracking-wider">
               Your shop for everything in between
             </h2>
