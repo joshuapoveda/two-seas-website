@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const nav = () => {
   return (
     <div >
-    <div className="nav-box">
+    <div className="nav-box pr-5">
       <div className="inner-nav-box">
         <div className="logo-box">
           <img
