@@ -15,6 +15,9 @@ export default {
         uciRed: "#FF0000",
       },
     },
+  
   },
+  
+
   plugins: [],
 };
