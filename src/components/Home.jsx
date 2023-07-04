@@ -1,10 +1,11 @@
 import React from "react";
+import { useEffect } from "react";
 
 const Home = () => {
   return (
     <div className="flex flex-grow w-full">
       <div className="flex flex-col flex-grow ">
-        <div className="flex md:h-1/4 border-b-4 border-brandCyan items-center m-5 ">
+        <div className="flex md:h-1/4 border-b-4 border-brandCyan items-center m-8">
           <h1 className="text-2xl my-4 leading-relaxed md:text-5xl tracking-wide text-blue-950">
             For the sake of cycling.
           </h1>
@@ -16,16 +17,18 @@ const Home = () => {
           </h2>
           <br></br>
           <p>
-            Between repairs and custom builds, we've got you covered.
+            We offer repairs, custome builds, and biking goods.
             <br></br>
           </p>
         </section>
         <div className="flex flex-col justify-between md:hidden">
           <div>
             <br></br>
+            <h3 className="ml-5">Hours: M-F (9am-9pm)</h3>
             <br></br>
-            <h3 className="-mt-10 ml-5">356 South 1st Street</h3>
+            <h3 className="ml-5">Address: 356 S 1st Street, Brooklyn, NY, 11211</h3>
             <br></br>
+            <h3 className="ml-5">356 South 1st Street</h3>
             <br></br>
             <h3 className="ml-5">Brooklyn NY 11211</h3>
           </div>
@@ -38,18 +41,21 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="hidden md:flex flex-grow ">
+        <div className="hidden md:flex flex-grow ml-4">
           <div className="flex flex-grow">
-            <div className="p-5 sm:flex hidden sm:w-96 md:w-2/4 text-blue-950">
-              Two seas cycling is a custom, full-service bike shop on
-              Metropolitan Ave in Brooklyn.
-              <br></br>
-              Located a few minutes from the Williamsburg bridge, come by and
-              check out the shop.
-              <br></br>
-              Hours: M-F (9am-9pm)
-              <br></br>
-              Address: 356 S 1st Street, Brooklyn, NY, 11211
+            <div className="p-5 sm:flex hidden sm:w-96 md:w-2/4 text-blue-950 flex-col">
+              <h2 className="mb-24">
+                Two seas cycling is a full-service bike shop.
+                <br></br>
+                Located a few minutes from the Williamsburg bridge, come by and
+                check out the shop.
+                <br></br>
+              </h2>
+              <h3>
+                Hours: M-F (9am-9pm)
+                <br></br>
+                Address: 356 S 1st Street, Brooklyn, NY, 11211
+              </h3>
             </div>
             <div className="flex mt-auto flex-grow justify-end">
               <img
