@@ -16,7 +16,7 @@ const Home = () => {
           </h2>
           <br></br>
           <p>
-            Between repairs and custom builds, we got your back.
+            Between repairs and custom builds, we've got you covered.
             <br></br>
           </p>
         </section>
