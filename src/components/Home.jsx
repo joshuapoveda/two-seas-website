@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="flex flex-grow">
+    <div className="flex flex-grow w-full">
       <div className="flex flex-col flex-grow ">
         <div className="flex md:h-1/4 border-b-4 border-brandCyan items-center m-5 ">
           <h1 className="text-2xl my-4 leading-relaxed md:text-5xl tracking-wide text-blue-950">

@@ -2,15 +2,15 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="relative ">
-      <div className="flex justify-center">
-        <section>
-          <div className="h-full px-5 py-10 mx-auto w-full ">
-            <div className=" flex flex-col text-center w-full mb-5">
-              <h1 className="sm:text-3xl text-2xl mb-4 text-blue-950">
-                Drop a line
-              </h1>
-            </div>
+    <div className="relative w-full">
+    <div className=" flex justify-center">
+      <section>
+        <div className="px-5 py-10 mx-auto w-full ">
+          <div className=" flex flex-col text-center w-full mb-5">
+            <h1 className="sm:text-3xl text-2xl mb-4 text-blue-950">
+              Drop a line
+            </h1>
+          </div>
 
             <div className="lg:w-1/2 mt-14 md:w-2/3 mx-auto">
               <div className="flex flex-wrap -m-2">
