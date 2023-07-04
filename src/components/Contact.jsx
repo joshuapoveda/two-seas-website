@@ -70,7 +70,7 @@ const Contact = () => {
                   </div>
                   <div className="p-2 w-full">
                     <button className="flex mx-auto text-white bg-brandBlue border-0 py-2 px-8 focus:outline-none hover:bg-blue-950 rounded text-lg">
-                      Button
+                      Send
                     </button>
                   </div>
                 </div>
