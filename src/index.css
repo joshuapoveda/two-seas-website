@@ -22,6 +22,12 @@
     @apply flex justify-center items-center
   }
   .links-box{
-    @apply flex justify-evenly lg:justify-center lg:mt-5 lg:flex-col text-lg md:text-xl py-3
+    @apply flex justify-evenly lg:justify-center mt-4 mb-2  lg:mt-5 lg:flex-col text-lg md:text-xl py-3
+  }
+}
+
+@layer components {
+  .form-box{
+    @apply w-full opacity-80 bg-gray-100 rounded border border-brandGray focus:border-brandBlue text-base outline-none text-brandBlue py-1 px-3 leading-8 transition-colors duration-200 ease-in-out
   }
 }

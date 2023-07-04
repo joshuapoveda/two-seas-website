@@ -5,9 +5,9 @@ const Home = () => {
     <div className="flex flex-grow">
       <div className="flex flex-col flex-grow ">
         <div className="flex md:h-1/4 border-b-4 border-brandCyan items-center m-5 ">
-          <h2 className="text-2xl my-4 leading-relaxed md:text-5xl tracking-wide text-blue-950">
+          <h1 className="text-2xl my-4 leading-relaxed md:text-5xl tracking-wide text-blue-950">
             For the sake of cycling.
-          </h2>
+          </h1>
         </div>
         <section className="-mt-5 tracking-wide mb-auto p-5 md:hidden text-blue-950 leading-relaxed text-lg">
           <h2>

@@ -71,9 +71,18 @@
   font-family: impHeavy
 }
 
-h2{
+h1{
   font-family: impHeavyInline
 }
+
+h2{
+  font-family: serenityBold;
+}
+
+h3{
+  font-family: serenityDemiBold;
+}
+
 section{
   font-family: serenityLight;
 }
