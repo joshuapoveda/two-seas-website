@@ -10,13 +10,13 @@
 
 @layer utilities {
   .outer-box{
-    @apply flex flex-col flex-grow lg:flex-row h-screen 
+    @apply flex flex-col flex-grow lg:flex-row h-screen
   }
   .nav-box{
     @apply flex h-full bg-brandBlue justify-center pt-3 md:px-5
   }
   .inner-nav-box{
-    @apply w-full justify-center
+    @apply w-full justify-center 
   }
   .logo-box{
     @apply flex justify-center items-center
