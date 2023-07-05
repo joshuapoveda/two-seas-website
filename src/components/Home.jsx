@@ -25,15 +25,12 @@ const Home = () => {
           </p>
         </section>
         <div className="flex flex-col text-lg justify-between md:hidden">
-          <div>
+          <div className="leading-loose">
             <h3 className="ml-8">
               Address: 356 S 1st Street, Brooklyn, NY, 11211
             </h3>
-            <br></br>
             <h3 className="ml-8">356 South 1st Street</h3>
-            <br></br>
             <h3 className="ml-8">Brooklyn NY 11211</h3>
-            <br></br>
             <h3 className="ml-8">Hours: M-F (9am-9pm)</h3>
           </div>
           <div className="-mt-24 z-0">
@@ -55,19 +52,17 @@ const Home = () => {
               <br></br>
               <p className="leading-relaxed tracking-normal text-xl">
                 We take on all types of cycling related projects, working with
-                you from start to finish. Wether it's a full custom build or a
+                you from start to finish. Whether it's a full custom build or a
                 yearly tune up, our shop is about bonding over what matters:
                 seeing the world from a saddle.
                 <br></br>
               </p>
 
-              <div className="w-full pt-6 mt-6 border-t border-brandGray">
-                <a className="text-brandBlue text-lg">twoseasnyc@gmail.com</a>
-                <p className="leading-normal text-lg">
-                  356 South 1st Street
-                  <br />
-                  Brooklyn NY 11211
-                </p>
+              <div className="text-lg w-full pt-5 mt-6 border-t border-brandGray leading-relaxed">
+                <h3>Address: 356 S 1st Street, Brooklyn, NY, 11211</h3>
+                <h3>356 South 1st Street</h3>
+                <h3>Brooklyn NY 11211</h3>
+                <h3>Hours: M-F (9am-9pm)</h3>
               </div>
             </div>
             <div className="flex mt-auto flex-grow justify-end">
