@@ -4,13 +4,13 @@ import { useEffect } from "react";
 const Home = () => {
   return (
     <div className="flex flex-grow w-full">
-      <div className="flex flex-col flex-grow ">
-        <div className="flex md:h-1/4 border-b-4 border-brandCyan items-center m-8">
+      <div className="flex flex-col flex-grow">
+        <div className="flex md:h-1/4 border-b-4 justify-center pt-4 pb-6 border-brandCyan items-center mx-8 my-6">
           <h1 className="text-2xl my-4 leading-relaxed md:text-5xl tracking-wide text-blue-950">
             For the sake of cycling.
           </h1>
         </div>
-        <section className="-mt-5 tracking-wide mb-auto p-5 md:hidden text-blue-950 leading-relaxed text-lg">
+        <section className="-mt-5 tracking-wide mb-auto p-8 md:hidden text-blue-950 leading-relaxed text-lg">
           <h2>
             Two seas cyclery is a full-service bike shop in Williamsburg,
             Brooklyn.
@@ -24,13 +24,13 @@ const Home = () => {
         <div className="flex flex-col justify-between md:hidden">
           <div>
             <br></br>
-            <h3 className="ml-5">Hours: M-F (9am-9pm)</h3>
+            <h3 className="ml-8">Hours: M-F (9am-9pm)</h3>
             <br></br>
-            <h3 className="ml-5">Address: 356 S 1st Street, Brooklyn, NY, 11211</h3>
+            <h3 className="ml-8">Address: 356 S 1st Street, Brooklyn, NY, 11211</h3>
             <br></br>
-            <h3 className="ml-5">356 South 1st Street</h3>
+            <h3 className="ml-8">356 South 1st Street</h3>
             <br></br>
-            <h3 className="ml-5">Brooklyn NY 11211</h3>
+            <h3 className="ml-8">Brooklyn NY 11211</h3>
           </div>
           <div className="-mt-24 z-0">
             <img
@@ -43,7 +43,7 @@ const Home = () => {
 
         <div className="hidden md:flex flex-grow ml-4">
           <div className="flex flex-grow">
-            <div className="p-5 sm:flex hidden sm:w-96 md:w-2/4 text-blue-950 flex-col">
+            <div className="p-8 sm:flex hidden sm:w-96 md:w-2/4 text-blue-950 flex-col">
               <h2 className="mb-24">
                 Two seas cycling is a full-service bike shop.
                 <br></br>
@@ -51,7 +51,7 @@ const Home = () => {
                 check out the shop.
                 <br></br>
               </h2>
-              <h3>
+              <h3 >
                 Hours: M-F (9am-9pm)
                 <br></br>
                 Address: 356 S 1st Street, Brooklyn, NY, 11211
