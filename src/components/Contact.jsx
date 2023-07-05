@@ -76,7 +76,7 @@ const Contact = () => {
                 </div>
               </form>
 
-              <div className="p-2 w-full pt-4 mt-14 border-t border-gray-200 text-center">
+              <div className="p-2 w-full pt-4 mt-14 border-t border-brandGray text-center">
                 <a className="text-indigo-500">twoseasnyc@gmail.com</a>
                 <p className="leading-normal">
                   356 South 1st Street
