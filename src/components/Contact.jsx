@@ -16,7 +16,7 @@ const Contact = () => {
             </div>
 
             <div className="lg:w-1/2 mt-14 md:w-2/3 mx-auto">
-              <form action="https://formsubmit.co/twoseasnyc@gmail.com" method="POST" >
+              <form action="https://formsubmit.co/info@twoseasnyc.com" method="POST" >
                 <div className="flex flex-wrap -m-2">
                   <div className="p-2 w-1/2">
                     <div>
