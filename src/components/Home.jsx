@@ -18,7 +18,7 @@ const Home = () => {
           <br></br>
           <p className="leading-relaxed tracking-normal text-lg">
             We take on all types of cycling related projects, working with you
-            from start to finish. Wether it's a full custom build or a yearly
+            from start to finish. Whether it's a full custom build or a yearly
             tune up, our shop is about bonding over what matters: seeing the
             world from a saddle.
             <br></br>
