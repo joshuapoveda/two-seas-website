@@ -13,12 +13,14 @@ const nav = () => {
       <div className="nav-box">
         <div className="inner-nav-box">
           <div className="logo-box">
+          <Link className="absolute border-4 rounded-full border-green-500 md:w-36 md:h-36 w-20 h-20" to='/'></Link>
             <img
               className=" m-3 md:m-7 md:w-48 w-24"
               src="images/TWO SEAS WEB LOGO Transparent Bkgrnd.png"
               alt="Image Description"
             />
           </div>
+
           <div className="nav">
             <nav className="links-box">
               <span
@@ -33,12 +35,14 @@ const nav = () => {
                   currentRoute === "/shop" ? "underline underline-offset-4" : ""
                 }`}
               >
-                <Link to='/shop'>Shop</Link>
+                <Link to="/shop">Shop</Link>
               </span>
 
               <span
                 className={`text-xs pl-2 md:p-0 md:text-xl md:m-7 w-20 text-white md:hover:text-blue-950 ${
-                  currentRoute === "/contact" ? "underline underline-offset-4" : ""
+                  currentRoute === "/contact"
+                    ? "underline underline-offset-4"
+                    : ""
                 }`}
               >
                 <Link to="/contact">Contact</Link>
