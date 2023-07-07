@@ -13,7 +13,7 @@ const nav = () => {
       <div className="nav-box">
         <div className="inner-nav-box">
           <div className="logo-box">
-          <Link className="absolute border-4 rounded-full border-green-500 md:w-36 md:h-36 w-20 h-20" to='/'></Link>
+          <Link className="absolute rounded-full md:w-36 md:h-36 w-20 h-20" to='/'></Link>
             <img
               className=" m-3 md:m-7 md:w-48 w-24"
               src="images/TWO SEAS WEB LOGO Transparent Bkgrnd.png"
