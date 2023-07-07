@@ -12,14 +12,14 @@ const Home = () => {
         </div>
         <section className="-mt-5 tracking-wide mb-auto p-8 md:hidden text-blue-950 leading-relaxed text-xl">
           <h2>
-            Two seas cyclery is a full-service bike shop in Williamsburg,
+            Two Seas Cyclery is a full-service bike shop in Williamsburg,
             Brooklyn.
           </h2>
           <br></br>
           <p className="leading-relaxed tracking-normal text-lg">
             We take on all types of cycling related projects, working with you
             from start to finish. Whether it's a full custom build or a yearly
-            tune up, our shop is about bonding over what matters: seeing the
+            tune up, our shop is about bonding over what matters: experiencing the
             world from a saddle.
             <br></br>
           </p>
@@ -43,7 +43,7 @@ const Home = () => {
           <div className="flex flex-grow">
             <div className="px-8 py-4 sm:flex hidden sm:w-96 md:w-2/3 text-blue-950 flex-col">
               <h2 className="text-3xl">
-                Two seas cyclery is a full-service bike shop in Williamsburg,
+                Two Seas Cyclery is a full-service bike shop in Williamsburg,
                 Brooklyn.
               </h2>
               <br></br>
@@ -51,7 +51,7 @@ const Home = () => {
                 We take on all types of cycling related projects, working with
                 you from start to finish. Whether it's a full custom build or a
                 yearly tune up, our shop is about bonding over what matters:
-                seeing the world from a saddle.
+                experiencing the world from a saddle.
                 <br></br>
               </p>
 
