@@ -7,16 +7,18 @@ const Contact = () => {
         <section>
           <div className="px-5 py-10 mx-auto w-full">
             <div className="flex flex-col text-center w-full mb-5">
-              <h1 className="text-3xl mb-4 text-blue-950">
-                Drop a line
-              </h1>
+              <h1 className="text-4xl text-blue-950">Drop a line</h1>
               <br></br>
               <br></br>
               <h2 className="text-2xl">We want to hear from you.</h2>
             </div>
 
             <div className="lg:w-1/2 mt-14 md:w-2/3 mx-auto">
-              <form action="https://formsubmit.co/ec33763cb0b975876bf4f029deb7978c" method="POST" >
+              <form
+                action="https://formsubmit.co/ec33763cb0b975876bf4f029deb7978c"
+                method="POST"
+              >
+                <input type="hidden" name="_next" value="https://www.twoseasnyc.com/"></input>
                 <div className="flex flex-wrap -m-2">
                   <div className="p-2 w-1/2">
                     <div>
