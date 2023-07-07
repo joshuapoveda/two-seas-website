@@ -7,7 +7,7 @@ const Contact = () => {
         <section>
           <div className="px-5 py-10 mx-auto w-full">
             <div className="flex flex-col text-center w-full mb-5">
-              <h1 className="sm:text-3xl text-2xl mb-4 text-blue-950">
+              <h1 className="text-3xl mb-4 text-blue-950">
                 Drop a line
               </h1>
               <br></br>

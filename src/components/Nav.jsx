@@ -33,7 +33,7 @@ const nav = () => {
                   currentRoute === "/shop" ? "underline underline-offset-4" : ""
                 }`}
               >
-                Shop
+                <Link to='/shop'>Shop</Link>
               </span>
 
               <span
