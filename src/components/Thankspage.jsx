@@ -5,7 +5,7 @@ const Thankspage = () => {
     <div className="pb-10  w-full flex flex-col">
       <div className="flex flex-col justify-center items-center">
         <img
-          className="md:w-60 w-48 md:mt-32 mt-28"
+          className="md:w-60 w-44 md:mt-32 mt-8"
           src="images/Two Seas Mascot Logo 2.png"
           alt="Image Description"
         />
