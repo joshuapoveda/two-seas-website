@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Shop = () => {
   return (
-    <div className="flex flex-col text-center w-full mb-5">
-    <h1 className="text-4xl my-auto text-blue-950">
-      Coming Soon!
-    </h1>
-  </div>
-  )
-}
+    <div className="flex flex-col border-4 h-full w-full">
+      <h1 className="flex text-4xl my-auto justify-center  text-blue-950">
+        Coming Soon!
+      </h1>
+    </div>
+  );
+};
 
-export default Shop
+export default Shop;
