@@ -10,7 +10,7 @@ const Contact = () => {
               <h1 className="text-4xl text-blue-950">Drop a line</h1>
               <br></br>
               <br></br>
-              <h2 className="text-2xl">We want to hear from you.</h2>
+              <h3 className="text-3xl">We want to hear from you.</h3>
             </div>
 
             <div className="lg:w-1/2 mt-14 md:w-2/3 mx-auto">
