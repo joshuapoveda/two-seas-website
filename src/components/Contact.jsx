@@ -18,7 +18,7 @@ const Contact = () => {
                 action="https://formsubmit.co/ec33763cb0b975876bf4f029deb7978c"
                 method="POST"
               >
-                <input type="hidden" name="_next" value="https://www.twoseasnyc.com/"></input>
+                <input type="hidden" name="_next" value="https://www.twoseasnyc.com/thankyou"></input>
                 <div className="flex flex-wrap -m-2">
                   <div className="p-2 w-1/2">
                     <div>
