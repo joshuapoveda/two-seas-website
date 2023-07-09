@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="relative w-full h-fit mt-5">
+    <div className="relative w-full min-h-screen mt-5">
       <div className="flex flex-grow justify-center">
         <section>
           <div className="px-5 py-10 mx-auto w-full">
