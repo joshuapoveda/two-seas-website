@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Nav from "./components/Nav";
+import Navigation from "./components/Navigation";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Shop from "./components/Shop";
@@ -11,7 +11,7 @@ function App() {
 
     <div className="outer-box">
       <BrowserRouter>
-        <Nav></Nav>
+        <Navigation></Navigation>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />

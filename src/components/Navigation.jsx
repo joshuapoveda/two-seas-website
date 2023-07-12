@@ -1,4 +1,3 @@
-import { FaInstagram, FaInstagramSquare } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
@@ -17,7 +16,7 @@ const nav = () => {
             <img
               className=" m-3 md:m-7 md:w-48 w-24"
               src="images/TWO SEAS WEB LOGO Transparent Bkgrnd.png"
-              alt="Image Description"
+              alt="Two Seas Cyclery Logo"
             />
           </div>
 

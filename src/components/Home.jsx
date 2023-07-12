@@ -2,9 +2,9 @@ import { FaInstagram, FaInstagramSquare } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className="flex flex-grow w-full relative">
-      <div className="flex flex-col flex-grow">
-        <div className="flex md:h-1/4 border-b-4 justify-center pt-4 pb-6 border-brandCyan items-center mx-8 my-6">
+    <div className="mobile-home-box">
+      <div className="mobile-inner-home-box">
+        <div className="banner-box">
           <h1 className="text-3xl my-4 leading-relaxed md:text-5xl tracking-wide text-blue-950">
             For the sake of cycling.
           </h1>
@@ -40,13 +40,13 @@ const Home = () => {
             <img
               className="mt-24 ml-auto h-auto w-52 lg:w-96"
               src="images/Two Seas Mascot Logo 1.png"
-              alt="Image Description"
+              alt="Two Seas Cyclery logo of a bird riding a bicycle"
             />
           </div>
         </div>
-
-        <div className="hidden md:flex flex-grow ml-4">
-          <div className="flex flex-grow">
+        {/* browser */}
+        <div className="home-box">
+          <div className="inner-home-box">
             <div className="px-8 py-4 sm:flex hidden sm:w-96 md:w-2/3 text-blue-950 flex-col">
               <h2 className="text-3xl">
                 Two Seas Cyclery is a full-service bike shop in Williamsburg,
@@ -78,7 +78,7 @@ const Home = () => {
               <img
                 className="justify-end  h-auto sm:h-96 w-auto md:w-96"
                 src="images/Two Seas Mascot Logo 1.png"
-                alt="Image Description"
+                alt="Two Seas Cyclery logo of a bird riding a bicycle"
               />
             </div>
           </div>

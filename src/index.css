@@ -24,6 +24,21 @@
   .links-box{
     @apply flex justify-evenly lg:justify-center mt-4 mb-2  lg:mt-5 lg:flex-col text-lg md:text-xl py-3
   }
+  .mobile-home-box{
+    @apply flex flex-grow w-full relative
+  }
+  .home-box{
+    @apply hidden md:flex flex-grow ml-4
+  }
+  .mobile-inner-home-box{
+    @apply flex flex-col flex-grow
+  }
+  .inner-home-box{
+    @apply flex flex-grow
+  }
+  .banner-box{
+    @apply flex md:h-1/4 border-b-4 justify-center pt-4 pb-6 border-brandCyan items-center mx-8 my-6
+  }
 }
 
 @layer components {
