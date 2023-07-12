@@ -28,13 +28,13 @@ const Home = () => {
             <h3 className="ml-8">356 South 1st Street</h3>
             <h3 className="ml-8">Brooklyn NY 11211</h3>
             <h3 className="ml-8">Monday - Sunday (11am-7pm)</h3>
-            {/* <div className="relative z-10">
-              <div className="border-4 absolute"><a href="https://www.instagram.com/twoseasnyc/" target="_blank" rel="noopener noreferrer"><FaInstagramSquare
-                className="ml-7 mt-2"
-                size="40"
+            <div className="relative z-10">
+              <div className="mt-3 ml-7 absolute"><a href="https://www.instagram.com/twoseasnyc/" target="_blank" rel="noopener noreferrer"><FaInstagramSquare
+
+                size="35"
               /></a>
               </div>
-            </div> */}
+            </div>
           </div>
           <div className="-mt-24 z-0">
             <img
@@ -53,7 +53,7 @@ const Home = () => {
                 Brooklyn.
               </h2>
               <br></br>
-              <p className="leading-relaxed tracking-normal text-xl">
+              <p className="z-10 leading-relaxed tracking-normal text-xl">
                 We take on all types of cycling related projects, working with
                 you from start to finish. Whether it's a full custom build or a
                 yearly tune up, our shop is about bonding over what matters:
@@ -61,20 +61,20 @@ const Home = () => {
                 <br></br>
               </p>
 
-              <div className="text-lg w-full pt-5 mt-6 border-t border-brandGray leading-relaxed">
+              <div className="text-lg w-auto pt-5 mt-6 border-t border-brandGray leading-relaxed">
                 <h3>356 South 1st Street</h3>
                 <h3>Brooklyn NY 11211</h3>
                 <h3>Monday - Sunday (11am-7pm)</h3>
-                {/* <div className="pb-8">
-                  <div className="border-4 "><a  href="https://www.instagram.com/twoseasnyc/" target="_blank" rel="noopener noreferrer"><FaInstagramSquare
-                    className="-ml-1 mt-2 md:hover:text-brandBlue"
+                <div className=" mr-96 mt-2 pb-40">
+                  <div className="-ml-1 absolute"><a  href="https://www.instagram.com/twoseasnyc/" target="_blank" rel="noopener noreferrer"><FaInstagramSquare
+                    className=" md:hover:text-brandBlue"
                     size="40"
                   /></a>
                   </div>
-                </div> */}
+                </div>
               </div>
             </div>
-            <div className="flex mt-auto flex-grow justify-end">
+            <div className="z-0 -ml-10 flex mt-auto flex-grow justify-end">
               <img
                 className="justify-end  h-auto sm:h-96 w-auto md:w-96"
                 src="images/Two Seas Mascot Logo 1.png"
